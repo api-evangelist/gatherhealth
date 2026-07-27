@@ -1,8 +1,16 @@
 aid: gatherhealth
 name: Gatherhealth
-description: Gatherhealth is a company surfaced as a portfolio company of khosla-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Gather Health is a Boston-area primary care organization delivering
+  team-based, community-centered medical care for seniors aged 65+ on Medicare.
+  Operating neighborhood locations across Quincy, Lynn, Dorchester, and
+  Brockton, each patient is supported by a care team of a primary care provider,
+  a "Gather Guide," and a medical technician, with both in-office and home-based
+  visits, care coordination with specialists and hospitals, and 24/7 urgent care
+  support. Gather Health is a portfolio company of Khosla Ventures. As a
+  care-delivery organization it does not publish a public developer API or
+  developer portal; it uses athenahealth for its patient portal. This profile is
+  maintained in the API Evangelist network as a company identity record.
 url: https://raw.githubusercontent.com/api-evangelist/gatherhealth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +18,29 @@ x-backed-by:
 - khosla-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/69a1b5252e73c35d22471dca/69b97938637a0ce38d3ce9ee_logo.svg
 tags:
 - Company
+- Healthcare
+- Primary Care
+- Senior Care
+- Medicare
+- Value-Based Care
+- Health Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.gatherhealth.com/
+- type: Blog
+  url: https://www.gatherhealth.com/blogs
+- type: PrivacyPolicy
+  url: https://www.gatherhealth.com/privacy
+- type: TermsOfService
+  url: https://www.gatherhealth.com/terms-of-service
+- type: DomainSecurity
+  url: security/gatherhealth-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
